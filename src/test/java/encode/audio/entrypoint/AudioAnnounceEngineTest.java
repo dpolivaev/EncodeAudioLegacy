@@ -8,6 +8,7 @@ import static com.github.dreamhead.moco.Runner.runner;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.regex.Pattern;
 
 import org.approvaltests.ApprovalUtilities;
 import org.approvaltests.legacycode.LegacyApprovals;
@@ -79,11 +80,18 @@ public class AudioAnnounceEngineTest {
 			IFluxTmlg availableEncodedAudioFile = audioAnnounceEngine.publishAudioFile(audioFileMessage, configAudioTmp, httpDataObj);
 			String xml = new XStream().toXML(availableEncodedAudioFile);
 			String fileList = String.join("\n", localServerFolder.list());
-			result = "\nLog : " + log + "\nFiles:\n" + fileList + "\n" + xml + "\n";
+			String logWithoutTempFolder = removePath(log.toString(), tempFolder);
+			result = "\nLog : " + logWithoutTempFolder + "\nFiles:\n" + fileList + "\n" + xml + "\n";
 			return  result;
 		} catch (Exception e) {
-			return "\nLog : " + log + "\n" + e.getMessage();
+			String logWithoutTempFolder = removePath(log.toString(), tempFolder);
+			return "\nLog : " + logWithoutTempFolder + "\n" + e.getMessage();
 		}
 
     }
+
+	private String removePath(String log, TemporaryFolder tempFolder) {
+		String absolutePath = tempFolder.getRoot().getAbsolutePath();
+		return log.replaceAll(Pattern.quote(absolutePath), "");
+	}
 }

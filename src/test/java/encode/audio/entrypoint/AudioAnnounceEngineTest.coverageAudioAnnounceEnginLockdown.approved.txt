@@ -1,12 +1,12 @@
 [wav, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.wav' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit6166798939014771756/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from wav to .wav
 End of the encoding audio file with return code: 1
@@ -17,12 +17,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [mp3, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit8762052389944058169/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
 Getting audio file date to send: OK
 encode from wav to mp3 : 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
 Getting audio file date to send: OK
@@ -52,12 +52,12 @@ Files:
 [ogg, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1852362279459323284/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from wav to .ogg
 End of the encoding audio file with return code: 1
@@ -68,12 +68,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [wav, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.wav' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1755041091990080930/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from wav to .wav
 End of the encoding audio file with return code: 1
@@ -84,12 +84,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [mp3, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit5147043480855862408/10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.mp3)
 Getting audio file date to send: OK
 encode from wav to mp3 : 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav
 Getting audio file date to send: OK
@@ -119,12 +119,12 @@ Files:
 [ogg, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Mon_Nov_04_140724_CET_2013343.wav] = 
 Log : The audio file '10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/)
+Encoding audio file :/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.wav C:\Users\Dimitry\AppData\Local\Temp\junit1321973252818981661/10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Mon_Nov_04_140724_CET_2013343.wav /10.151.156.180Mon_Nov_04_140724_CET_2013343.ogg)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from wav to .ogg
 End of the encoding audio file with return code: 1
@@ -135,12 +135,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [wav, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.wav' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit3767473059683566843/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
 Getting audio file date to send: OK
 encode from mp3 to wav : 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
 Getting audio file date to send: OK
@@ -170,12 +170,12 @@ Files:
 [mp3, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1518002458347700646/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from mp3 to .mp3
 End of the encoding audio file with return code: 1
@@ -186,12 +186,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [ogg, 10.151.156.180Mon_Nov_04_140724_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit8944666945666555347/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from mp3 to .ogg
 End of the encoding audio file with return code: 1
@@ -202,12 +202,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [wav, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.wav' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit1553817422750592569/10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.wav)
 Getting audio file date to send: OK
 encode from mp3 to wav : 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
 Getting audio file date to send: OK
@@ -237,12 +237,12 @@ Files:
 [mp3, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6662439147463212069/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from mp3 to .mp3
 End of the encoding audio file with return code: 1
@@ -253,12 +253,12 @@ encode.audio.utils.CoreException: Cant encode file!
 [ogg, 10.151.156.180Tue_Nov_05_141112_CET_2013343, 10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3] = 
 Log : The audio file '10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg' does not exist on the HTTPS server
 Getting audio file date to send: OK
-Encoding audio file :C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/)
+Encoding audio file :/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 (path : /)
 Encoding audio : enable
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
-Running the command: /usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
-Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 C:\Users\Dimitry\AppData\Local\Temp\junit6594112735221669690/10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
+Running the command: /usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg
+Simulate Mp3Encoder.launchMp3Exec(/usr/local/bin/lame -b 128 -V 4 /10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3 /10.151.156.180Tue_Nov_05_141112_CET_2013343.ogg)
 Getting audio file date to send: OK
 encoding error, unsupported transformation from mp3 to .ogg
 End of the encoding audio file with return code: 1
