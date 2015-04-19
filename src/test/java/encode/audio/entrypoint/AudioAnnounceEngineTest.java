@@ -2,23 +2,21 @@ package encode.audio.entrypoint;
 
 import static com.github.dreamhead.moco.Moco.file;
 import static com.github.dreamhead.moco.Moco.httpserver;
-import static com.github.dreamhead.moco.Moco.log;
 import static com.github.dreamhead.moco.Moco.with;
 import static com.github.dreamhead.moco.Runner.runner;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 
+import org.approvaltests.ApprovalUtilities;
 import org.approvaltests.legacycode.LegacyApprovals;
-import org.approvaltests.reporters.ClipboardReporter;
-import org.approvaltests.reporters.UseReporter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
 import com.github.dreamhead.moco.HttpServer;
-import com.google.common.base.Joiner;
 import com.thoughtworks.xstream.XStream;
 
 import flux.AudioAnnounceTmlg;
@@ -69,11 +67,22 @@ public class AudioAnnounceEngineTest {
 
         File localServerFolder = tempFolder.newFolder("local_server_folder");
         localServerFolder.mkdirs();
+        localServerFolder.deleteOnExit();
+        
+        ByteArrayOutputStream log = new ApprovalUtilities(). writeSystemOutToStringBuffer();
 
         AudioAnnounceEngine audioAnnounceEngine = new AudioAnnounceEngine(localServerFolder.getAbsolutePath() + "/");
         // When
-        IFluxTmlg availableEncodedAudioFile = audioAnnounceEngine.publishAudioFile(audioFileMessage, configAudioTmp, httpDataObj);
-        return  new XStream().toXML(availableEncodedAudioFile);
+        String result;
+		try {
+			IFluxTmlg availableEncodedAudioFile = audioAnnounceEngine.publishAudioFile(audioFileMessage, configAudioTmp, httpDataObj);
+			String xml = new XStream().toXML(availableEncodedAudioFile);
+			String fileList = String.join("\n", localServerFolder.list());
+			result = "\nLog : " + log + "\nFiles:\n" + fileList + "\n" + xml + "\n";
+			return  result;
+		} catch (Exception e) {
+			return "\nLog : " + log + "\n" + e.getMessage();
+		}
 
     }
 }
