@@ -1,8 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>goldenMaster</groupId>
 	<artifactId>encode.audio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<repositories>
+		<repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>spring.io</id>
+          <name>libs-release-remote</name>
+          <url>http://repo.spring.io/libs-release-remote</url>
+        </repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -24,11 +35,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.github.approvals</groupId>
-			<artifactId>ApprovalTests</artifactId>
-			<version>0.13</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/lib/ApprovalTests/ApprovalTests.jar</systemPath>
+			<groupId>approvaltests</groupId>
+			<artifactId>ApprovalsJava</artifactId>
+			<version>013</version>
 		</dependency>
 		<dependency>
 			<groupId>com.googlecode.zohhak</groupId>
@@ -42,36 +51,36 @@
 			<version>1.4.5</version>
 			<scope>test</scope>
 		</dependency>
-            <dependency>
-            <groupId>com.github.spullara.mustache.java</groupId>
-            <artifactId>compiler</artifactId>
-            <version>0.8.9</version>
-            <exclusions>
-              <exclusion>
-                <artifactId>guava</artifactId>
-                <groupId>com.google.guava</groupId>
-              </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.github.dreamhead</groupId>
-            <artifactId>moco-core</artifactId>
-            <version>0.9.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.3.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-          <groupId>org.apache.httpcomponents</groupId>
-          <artifactId>fluent-hc</artifactId>
-          <version>4.3.3</version>
-        </dependency>
+		<dependency>
+			<groupId>com.github.spullara.mustache.java</groupId>
+			<artifactId>compiler</artifactId>
+			<version>0.8.9</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>guava</artifactId>
+					<groupId>com.google.guava</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.github.dreamhead</groupId>
+			<artifactId>moco-core</artifactId>
+			<version>0.9.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>fluent-hc</artifactId>
+			<version>4.3.3</version>
+		</dependency>
 
-   
+
 	</dependencies>
 	<build>
 		<pluginManagement>
@@ -102,11 +111,14 @@
 						<configuration>
 							<rules>
 								<requireMavenVersion>
-									<message>===================================== [ERROR] ENVIRONMENT SETUP ERROR: EncodeAudioLecacy needs maven 3.0 or greater</message>
+									<message>===================================== [ERROR]
+										ENVIRONMENT SETUP ERROR: EncodeAudioLecacy needs maven 3.0 or
+										greater</message>
 									<version>3.0</version>
 								</requireMavenVersion>
 								<requireJavaVersion>
-									<message>===================================== [ERROR] ENVIRONMENT SETUP ERROR: EncodeAudioLecacy needs java 1.7.x</message>
+									<message>===================================== [ERROR]
+										ENVIRONMENT SETUP ERROR: EncodeAudioLecacy needs java 1.7.x</message>
 									<version>[1.7.0,1.8.0]</version>
 								</requireJavaVersion>
 							</rules>
