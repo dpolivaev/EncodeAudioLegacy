@@ -32,20 +32,22 @@ public class AudioAnnounceEngineTest {
     private static final String REMOTE_AUDIO_FILE_NAME2 = "10.151.156.180Tue_Nov_05_141112_CET_2013343.mp3";
     private com.github.dreamhead.moco.Runner runner;
 
-//    @Before
-//    public void setuphttp() {
-//    	HttpServer server = httpserver(12306);
-//    	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME));
-//    	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME2))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME2));
-//        runner = runner(server);
-//        runner.start();
-//    }
-//
-//    @After
-//    public void tearDown() {
-//        runner.stop();
-//    }
+/*    
+  // Http Server
+   @Before
+    public void setuphttp() {
+    	HttpServer server = httpserver(12306);
+    	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME));
+    	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME2))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME2));
+        runner = runner(server);
+        runner.start();
+    }
 
+    @After
+    public void tearDown() {
+        runner.stop();
+    }
+*/
     @Test 
     public void audioAnnounceEngine() throws Exception {
     	String log = publishAudioFile(REMOTE_AUDIO_FILE_NAME, "mp3","10.151.156.180Tue_Nov_05_141112_CET_2013343");
