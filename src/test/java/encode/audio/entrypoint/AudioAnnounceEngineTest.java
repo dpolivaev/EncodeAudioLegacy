@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 
 import org.approvaltests.Approvals;
 import org.approvaltests.legacycode.LegacyApprovals;
+import org.approvaltests.reporters.UseReporter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -20,6 +21,7 @@ import org.junit.rules.TemporaryFolder;
 
 import com.github.dreamhead.moco.HttpServer;
 
+import encode.audio.entrypoint.reporter.BeyondCompareReporter86;
 import flux.AudioAnnounceTmlg;
 import flux.IFluxTmlg;
 
@@ -36,7 +38,8 @@ public class AudioAnnounceEngineTest {
   // Http Server
    @Before
     public void setuphttp() {
-    	HttpServer server = httpserver(12306);
+    	int port = 12306;
+		HttpServer server = httpserver(port);
     	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME));
     	server.request(by(uri("/" + REMOTE_AUDIO_FILE_NAME2))).response(file(TEST_RESOURCE_DIR + REMOTE_AUDIO_FILE_NAME2));
         runner = runner(server);
