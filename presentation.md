@@ -1,3 +1,10 @@
+Workshop Encode Audio Legacy 
+================================
+
+https://github.com/martinsson/EncodeAudioLegacy
+http://en.slideshare.net/sanlaville/20140530-itakegolden-master
+
+
 Moco
 ===============
 
