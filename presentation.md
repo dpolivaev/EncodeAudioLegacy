@@ -91,5 +91,8 @@ Java code coverage for eclipse
 
 Site: http://www.eclemma.org/
 
+Gilded Rose Refactoring Kata
+============================
 
-
+https://github.com/dpolivaev/GildedRose-Refactoring-Kata
+http://approvaltests.sourceforge.net/
